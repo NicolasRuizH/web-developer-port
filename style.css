@@ -682,6 +682,9 @@ body.light .project-background {
   .porjects-first-title {
     padding-left: 3rem;
   }
+  .background-video {
+  opacity: 0.9;
+  }
 }
 
 
