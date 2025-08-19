@@ -166,6 +166,14 @@ if (window.innerWidth > 768) {
 } 
 
 
+//reprducir en todos mobiles
+document.querySelectorAll('video').forEach(video => {
+  video.muted = true;
+  video.playsInline = true;
+  video.play().catch(error => {
+    console.log("Autoplay falló:", error);
+  });
+});
 
 
 
